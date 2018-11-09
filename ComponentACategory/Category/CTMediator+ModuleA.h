@@ -6,8 +6,7 @@
 //  Copyright © 2018年 bianla. All rights reserved.
 //
 
-
-@class CTMediator;
+#import "CTMediator.h"
 @interface CTMediator (ModuleA)
 - (UIViewController *)ModuleB_viewControllerWithCallback:(void(^)(NSString *result))callback;
 @end
