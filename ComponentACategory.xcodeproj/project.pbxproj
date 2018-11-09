@@ -15,7 +15,7 @@
 		043BFB7B2195597D00BBC6E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BFB7A2195597D00BBC6E4 /* main.m */; };
 		043BFB852195597D00BBC6E4 /* ComponentACategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BFB842195597D00BBC6E4 /* ComponentACategoryTests.m */; };
 		043BFB902195597D00BBC6E4 /* ComponentACategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BFB8F2195597D00BBC6E4 /* ComponentACategoryUITests.m */; };
-		043BFBA021955A8B00BBC6E4 /* CTMediator+ModuleB.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BFB9F21955A8B00BBC6E4 /* CTMediator+ModuleB.m */; };
+		043BFBA321955D1800BBC6E4 /* CTMediator+ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 043BFBA221955D1800BBC6E4 /* CTMediator+ModuleA.m */; };
 		18AEBA2813B7D4D4447FF384 /* libPods-ComponentACategoryUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B27A39A5E50CEDFF17CD3221 /* libPods-ComponentACategoryUITests.a */; };
 		72BC92F2C3E0C3233289B5B4 /* libPods-ComponentACategoryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C880AE36D0ADF8A378B65B3C /* libPods-ComponentACategoryTests.a */; };
 		B73EE0FCCFF9AC5D4D2BA27F /* libPods-ComponentACategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E4DB1F65D1BDA547CDB3D6 /* libPods-ComponentACategory.a */; };
@@ -55,8 +55,8 @@
 		043BFB8B2195597D00BBC6E4 /* ComponentACategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComponentACategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043BFB8F2195597D00BBC6E4 /* ComponentACategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComponentACategoryUITests.m; sourceTree = "<group>"; };
 		043BFB912195597E00BBC6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		043BFB9E21955A8B00BBC6E4 /* CTMediator+ModuleB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ModuleB.h"; sourceTree = "<group>"; };
-		043BFB9F21955A8B00BBC6E4 /* CTMediator+ModuleB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ModuleB.m"; sourceTree = "<group>"; };
+		043BFBA121955D1800BBC6E4 /* CTMediator+ModuleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ModuleA.h"; sourceTree = "<group>"; };
+		043BFBA221955D1800BBC6E4 /* CTMediator+ModuleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ModuleA.m"; sourceTree = "<group>"; };
 		20CA9750221F974530591BF9 /* Pods-ComponentACategoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComponentACategoryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComponentACategoryUITests/Pods-ComponentACategoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		59E30E613010EA3B86C03AA2 /* Pods-ComponentACategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComponentACategory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComponentACategory/Pods-ComponentACategory.debug.xcconfig"; sourceTree = "<group>"; };
 		9388B40DD7352C9CF7B3D2DE /* Pods-ComponentACategoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComponentACategoryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComponentACategoryUITests/Pods-ComponentACategoryUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,8 +156,8 @@
 		043BFB9D21955A8B00BBC6E4 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				043BFB9E21955A8B00BBC6E4 /* CTMediator+ModuleB.h */,
-				043BFB9F21955A8B00BBC6E4 /* CTMediator+ModuleB.m */,
+				043BFBA121955D1800BBC6E4 /* CTMediator+ModuleA.h */,
+				043BFBA221955D1800BBC6E4 /* CTMediator+ModuleA.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -378,9 +378,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043BFBA321955D1800BBC6E4 /* CTMediator+ModuleA.m in Sources */,
 				043BFB702195597D00BBC6E4 /* ViewController.m in Sources */,
 				043BFB7B2195597D00BBC6E4 /* main.m in Sources */,
-				043BFBA021955A8B00BBC6E4 /* CTMediator+ModuleB.m in Sources */,
 				043BFB6D2195597D00BBC6E4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
