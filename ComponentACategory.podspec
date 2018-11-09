@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'ComponentACategory'
-s.version          = '1.0.0'
+s.version          = '1.0.1'
 s.summary          = '这是业务模块A 分类组件'
 
 # This description is used to generate tags and improve search results.

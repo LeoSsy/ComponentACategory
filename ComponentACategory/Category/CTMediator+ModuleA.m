@@ -7,7 +7,7 @@
 //
 
 #import "CTMediator+ModuleA.h"
-
+#import "CTMediator.h"
 @implementation CTMediator (ModuleA)
 - (UIViewController *)ModuleB_viewControllerWithCallback:(void(^)(NSString *result))callback {
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
