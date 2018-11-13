@@ -8,5 +8,5 @@
 
 #import "CTMediator.h"
 @interface CTMediator (ModuleA)
-- (UIViewController *)ModuleB_viewControllerWithCallback:(void(^)(NSString *result))callback;
+- (UIViewController *)ModuleA_viewControllerWithCallback:(void(^)(NSString *result))callback;
 @end
