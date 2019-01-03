@@ -9,4 +9,5 @@
 #import "CTMediator.h"
 @interface CTMediator (ModuleA)
 - (UIViewController *)ModuleA_viewControllerWithCallback:(void(^)(NSString *result))callback;
+- (UIViewController *)ModuleA_viewControllerWithImage:(UIImage*)image callback:(void(^)(NSString *result))callback;
 @end
